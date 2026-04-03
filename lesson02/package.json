@@ -9,6 +9,7 @@
   "main": "index.js",
   "devDependencies": {},
   "scripts": {
+    "start" : "npx @tailwindcss/cli -i ./src/input.css -o ./build/css/output.css --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
